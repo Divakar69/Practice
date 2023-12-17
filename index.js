@@ -1,9 +1,10 @@
 const express = require("express")
 const routerIndex = require("./routes/routesIndex.js")
-const app = express()
-const router = express.Router()
+const app = express();
+// const router = express.Router()
+app.use(express.json())
 port = 1080
-router.route("/",routerIndex)
+app.use("/",routerIndex.router)
 // app.get("/",(req,res,next)=>{
 //     res.send({
 //         "message":"Shiva"
