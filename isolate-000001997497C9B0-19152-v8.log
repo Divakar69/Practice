@@ -1,0 +1,15 @@
+1. maximum how many calls can an agent take simaltaniously ?
+2. same queue can be assigned to multiple routing profiles?
+3. maximum no.of queues can be assigned to a routing profile?
+4. we can get the deskphone feture in "Transfer to phone" block?
+5. why dynamoDB to check hours of operation/Holidays we check that using "Hours of Operatoin" by configuring 0 hours for holidays?
+
+
+
+
+
+
+
+
+amazon-connect-a59edb310570/connect/08012024
+/aws/connect/08012024
